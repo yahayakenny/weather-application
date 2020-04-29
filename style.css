@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border : 1px solid white;
+    padding: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#icon {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+.temperature {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#button {
+    padding: 5px;
+    width: 120px;
+    border-radius: 10px;
+    color: red;
+    font-weight: 600px;
+}
